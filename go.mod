@@ -1,4 +1,4 @@
-module github.com/nochzato/example
+module github.com/vadleshch/grouplab
 
 go 1.23.0
 
