@@ -2,12 +2,11 @@ package server
 
 import (
 	"encoding/json"
-	"net/http"
-	"strconv"
 	"github.com/go-chi/chi/v5"
 	"github.com/vadleshch/grouplab/internal/bottle"
 	"github.com/vadleshch/grouplab/internal/user"
-	"context"
+	"net/http"
+	"strconv"
 )
 
 type Handler struct {
